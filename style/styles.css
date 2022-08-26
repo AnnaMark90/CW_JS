@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: #ededed;
+}
+
+.gallery{
+    margin-top: 150px;
+}
+
+.gallery,
+.gallery__thumbs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.gallery__thumbs li{
+    padding-left: 15px;
+    list-style: none;
+}
